@@ -1,0 +1,32 @@
+{
+  "name": "mern-stack-project-management-app",
+  "version": "1.0.0",
+  "description": "FullStack MERN practice with GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eleeyeah/MERN-Stack-Project-Management-App.git"
+  },
+  "author": "ilie honciuc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eleeyeah/MERN-Stack-Project-Management-App/issues"
+  },
+  "homepage": "https://github.com/eleeyeah/MERN-Stack-Project-Management-App#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "mongoose": "^6.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
