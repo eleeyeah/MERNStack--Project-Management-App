@@ -11,9 +11,9 @@ export default function Projects() {
 
   return (
     <>
-      {/*  type error - can't read properties of undefined (reading length)*/}
-      {typeof data.projects !== "undefined" && data.projects.length > 0 ? (
-        <div className="row mt-4">
+      {/*  typeof data.projects !== "undefined" && data.projects.length > 0  --Andreea's solution*/}
+      {data.projects.length > 0 ? (
+        <div className="row mt-6">
           {data.projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
