@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #93b48b;
+  background-color: #c1d8bb;
 }
 
 code {
@@ -18,7 +18,7 @@ code {
 }
 
 .navbar {
-  background-color: #f7fff6;
+  background-color: #ffffff;
 }
 
 .navbar-brand img {
@@ -39,28 +39,27 @@ code {
 
 .btn-primary,
 .bg-primary {
-  background-color: #69788d !important;
+  background-color: #567196 !important;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #6a6397;
+  background-color: #a76eb9;
   opacity: 0.9;
 }
 
 .btn-secondary {
-  background-color: 8491a3;
+  background-color: #a76eb9;
 }
 
 .btn-secondary:hover {
-  background-color: #637590;
+  background-color: #567196;
   opacity: 0.9;
 }
 
 .modal-content {
   background-color: #8491a3;
 }
-
 
 .modal-title {
   font: color #b03b3b;
