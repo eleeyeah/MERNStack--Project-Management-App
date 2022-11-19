@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #93b48b;
 }
 
 code {
@@ -13,12 +14,23 @@ code {
 }
 
 .navbar-brand {
-  color: #df3ca6;
+  color: #6d4747;
+}
+
+.navbar {
+  background-color: #f7fff6;
 }
 
 .navbar-brand img {
   width: 30px;
   margin-right: 10px;
+}
+
+.card {
+  background-color: #8491a3;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .btn {
@@ -27,22 +39,31 @@ code {
 
 .btn-primary,
 .bg-primary {
-  background-color: #df3ca6 !important;
+  background-color: #69788d !important;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #df3ca6;
+  background-color: #6a6397;
   opacity: 0.9;
 }
 
 .btn-secondary {
-  background-color: #7430f9;
+  background-color: 8491a3;
 }
 
 .btn-secondary:hover {
-  background-color: #7430f9;
+  background-color: #637590;
   opacity: 0.9;
+}
+
+.modal-content {
+  background-color: #8491a3;
+}
+
+
+.modal-title {
+  font: color #c8c8c8;
 }
 
 .icon {

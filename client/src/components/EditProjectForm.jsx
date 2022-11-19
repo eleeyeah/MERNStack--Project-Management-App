@@ -35,7 +35,7 @@ export default function EditProjectForm({ project }) {
   };
 
   return (
-    <div className="mt-5">
+    <div className="mt-5 ">
       <h3>Update Project Details</h3>
       <form onSubmit={onSubmit}>
         <div className="mb-3">
